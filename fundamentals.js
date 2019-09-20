@@ -1,7 +1,8 @@
 let aCar ={
     owner: 'Joe bloggs',
     type : {
-        make: 'Toyota Corrola',
+        make: 'Toyota',
+        model: 'Corrola',
         cc: '1.8'},
     registration:'10WD1058'
 };
@@ -17,5 +18,5 @@ aCar.color = {
 }
 
 
-console.log(aCar.owner + ' drives a ' + aCar.type.make);
+console.log(aCar.owner + ' drives a ' + aCar.type.make + ' ' + aCar.type.model);
 console.log('it is a ' + aCar.color.exterior + ' car '+ aCar.mileage + ' mileage, and with ' + aCar.color.interior.texture + ' interior ');
